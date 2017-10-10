@@ -1,0 +1,18 @@
+User-agent: Yandex
+Disallow: /manager/
+Disallow: /assets/components/
+Disallow: /core/
+Disallow: /connectors/
+Disallow: /index.php
+Disallow: *?
+Host: salonsweet.ru
+Sitemap: http://salonsweet.ru/sitemap.xml
+
+User-agent: *
+Disallow: /manager/
+Disallow: /assets/components/
+Disallow: /core/
+Disallow: /connectors/
+Disallow: /index.php
+Disallow: *?
+Sitemap: http://salonsweet.ru/sitemap.xml

@@ -1,0 +1,19 @@
+<svg width="222" height="43" viewBox="0 0 222 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Rectangle 6</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-7709 664)">
+<g id="Rectangle 6">
+<use xlink:href="#path0_fill" transform="matrix(0.999997 -0.00243042 -0.00241567 -0.999997 7709.68 -621.929)" fill="#FF0049"/>
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="matrix(0.999997 -0.00243042 -0.00241567 -0.999997 7709.68 -621.929)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="matrix(0.999997 -0.00243042 -0.00241567 -0.999997 7709.68 -621.929)" fill="#FF0049"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 0L 220.373 0L 190.76 21.46L 220.373 41.5356L 0 41.5356L 0 0Z"/>
+<path id="path1_stroke_2x" d="M 0 0L 0 -2L -2 -2L -2 0L 0 0ZM 220.373 0L 221.546 1.61946L 226.541 -2L 220.373 -2L 220.373 0ZM 220.373 41.5356L 220.373 43.5356L 226.887 43.5356L 221.495 39.8801L 220.373 41.5356ZM 0 41.5356L -2 41.5356L -2 43.5356L 0 43.5356L 0 41.5356ZM 190.76 21.46L 189.587 19.8406L 187.277 21.5146L 189.638 23.1155L 190.76 21.46ZM 0 2L 220.373 2L 220.373 -2L 0 -2L 0 2ZM 220.373 39.5356L 0 39.5356L 0 43.5356L 220.373 43.5356L 220.373 39.5356ZM 2 41.5356L 2 0L -2 0L -2 41.5356L 2 41.5356ZM 219.199 -1.61946L 189.587 19.8406L 191.934 23.0795L 221.546 1.61946L 219.199 -1.61946ZM 189.638 23.1155L 219.25 43.191L 221.495 39.8801L 191.882 19.8046L 189.638 23.1155Z"/>
+</defs>
+</svg>
