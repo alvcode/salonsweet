@@ -6,7 +6,7 @@ $(function(){
 
 	$(".intro-more-button").click(function(event) {
 		var moreCoords = $(".scr-3").offset().top;
-		$("body").animate({scrollTop: moreCoords}, 800);
+		$("html, body").animate({scrollTop: moreCoords}, 800);
 	});
 
 	var setClientWidth = $(window).width();
