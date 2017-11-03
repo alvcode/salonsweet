@@ -250,6 +250,15 @@ $(function(){
 		}
 	});
 
+	/* == Защита от спама формы отзывов (reviews) ==*/
+	$(".rev-button-submit").click(function(event) {
+		$(".rev-guard").attr('value', 'Валидация');
+
+		if ( $(".rev-guard").attr('value') == 'Валидация' ) {
+			$('.rev-form').submit();
+		}
+	});
+
 
 /* == Защита от спама формы всплывающего окна со скидкой 10% ==*/
 	$(".popup-sub-form").click(function(event) {

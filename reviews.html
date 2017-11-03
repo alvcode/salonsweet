@@ -79,7 +79,7 @@
 			</div>
 		</div>
 		<div>
-			<form action="" method="POST">
+			<form action="" method="POST" class="rev-form">
 				<p><input type="text" name="name" placeholder="Ваше Имя" required></p>
 				<p><input type="text" name="email" placeholder="Ваш E-mail" required></p>
 				<p class="reviews-star">
@@ -92,8 +92,10 @@
 				<p><textarea name="text" placeholder="Текст отзыва" required></textarea></p>
 				<p><a href="#" target="_blank">Политика конфиденциальности</a></p>
 				<input type="text" name="star" class="input-star" hidden>
-				<p><input type="submit"></p>
+				<input type="text" name="star" class="rev-guard" hidden>
+				<!-- <p><input type="submit"></p> -->
 			</form>
+				<span class="rev-button-submit">Отправить</span>
 		</div>
 	</div>
 
