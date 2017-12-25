@@ -91,10 +91,10 @@ header{
 	position: relative;
 	
 	&>img{
-		height: 80%;
+		height: 80%; // по умолчанию 80%
 		position: absolute;
 		right: 0;
-		bottom: 0;
+		bottom: 0; //по умолчанию 0
 		z-index: 2;
 	}
 }
@@ -158,6 +158,7 @@ header{
 	font-weight: bold;
 	width: 35%;
 	text-align: center;
+    position: relative;
 	
 	span:nth-of-type(1){
 		color: @c-black;
@@ -173,6 +174,27 @@ header{
 		color: @c-rose;
 		font-size: 13px;
 	}
+    //*********************************************
+   // Новогодняя шапка
+    //Расскоментить для добавления
+    .christmas{
+        width: 250px;
+        display: inline-block;
+        position: absolute;
+        bottom: -185px;
+       /* right: 0;*/
+        left: 30px;
+       /* margin: 0 auto;*/
+    }
+    .cap{
+        width: 80px;
+        display: inline-block;
+        position: absolute;
+        top: -30px;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+    }
 }
 .hamburger{
 	width: 60px;
@@ -2719,7 +2741,7 @@ footer{
 }
 
 .personal--important{
-	margin-top: 55px;
+	margin-top: 125px; //christmas 55px
 	.flex();
 	
 	&>div:nth-of-type(1){
@@ -2982,7 +3004,7 @@ footer{
 /* ========== SERVICE-PAGE ==============*/
 .service-page--main{
 	.flex(row, nowrap, space-between);
-	margin-top: 35px;
+	margin-top: 135px; //christmas 35px
 	margin-bottom: 45px;
 	
 	&>div:nth-of-type(1){
@@ -3301,7 +3323,7 @@ footer{
 		display: block;
 	}
 	header{
-		img{
+		&>img{
 			height: 70%;
 			filter: opacity(40%);
 		}
@@ -3330,6 +3352,16 @@ footer{
 		padding-top: 15px;
 		width: 50%;
 		text-align: center;
+        
+        .christmas{
+            width: 220px;
+            bottom: -155px;
+            filter: opacity(40%);
+        }
+        .cap{
+            width: 60px;
+            top: -15px;
+        }
 	}
 	.main-menu{
 		display: none;
