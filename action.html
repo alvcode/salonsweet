@@ -15,6 +15,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+    <script src="js/jquery.mask.js"></script>
 
 	<title>Акции салона красоты Sweet- метро Братиславская</title>
 </head>
@@ -314,10 +315,10 @@
 			<p>Пожалуйста, заполните форму</p>
 			<form action="" method="post" class="form-popup">
 				<input type="text" name="pop_name" placeholder="Ф.И.О" required> <br>
-				<input type="tel" name="pop_phone" placeholder="Номер телефона" required> <br>
+				<input type="tel" id="pop-up-phone" name="pop_phone" placeholder="Номер телефона" required> <br>
 				<input type="text" class="pop-guard" name="pop_spam" value="">
 				<input type="email" name="pop_email" placeholder="E-mail" required> <br>
-				<input type="date" name="pop_date" placeholder="Дата рождения" required> <br>
+				<input type="text" id="pop-up-date" name="pop_date" placeholder="Дата рождения" required> <br>
 				<label><input type="checkbox" name="pop_check" required> Я согласен на обработку моих персональных данных</label> <br>
 				<!-- <input type="submit" value="Записаться"> -->
 			</form>

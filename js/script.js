@@ -315,6 +315,27 @@ $(".personal--gallery-more").click(function(event) {
 		$(".personal--fancy-container").append('<a data-fancybox="gallery" href="assets/img/work/' + personalPhotoFolder + '/' + i + '.jpg"><img src="assets/img/work/' + personalPhotoFolder + '/' + i + '.jpg"></a>');
 	}
 });
+    
+    
+  /* Маска ввода для формы во всплывающем окне и в форме отклика на вакансии*/
+    
+    $("#pop-up-phone").mask("+7(000)000-00-00", {
+        placeholder: "Номер мобильного",
+        clearIfNotMatch: true
+      });
+    $("#pop-up-phone").click(function(){
+        $(this).val('+7');
+    })
+    
+    $("#pop-up-date").mask("00.00.0000", {
+        placeholder: "Дата рождения",
+        clearIfNotMatch: true
+      });
+    
+    $("#vac-number").mask("+7(000)000-00-00", {
+        placeholder: "+7(___)___-__-__",
+        clearIfNotMatch: true
+      });
 
 
 
